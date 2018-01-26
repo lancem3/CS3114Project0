@@ -5,6 +5,6 @@ import java.io.*;
 public class Project0 {	
 	public static void main(String[] args) {
 		//Insert your code here
-		
+		System.out.println("hello friend");
 	}
 }
