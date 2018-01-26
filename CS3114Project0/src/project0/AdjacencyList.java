@@ -14,6 +14,9 @@ public class AdjacencyList {
      */
     public AdjacencyList(int length){
         edges = new ArrayList[length];
+        for(int i = 0; i < edges.length; i++){
+            edges[i] = new ArrayList<Integer>();
+        }
     }
     /**
      * 
