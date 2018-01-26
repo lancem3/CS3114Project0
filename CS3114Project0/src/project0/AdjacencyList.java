@@ -22,7 +22,7 @@ public class AdjacencyList {
      * @return
      */
     public boolean addEdge(int vertex1, int vertex2){
-        if(edges[vertex1].contains(vertex2) ||edges[vertex2].contains(vertex1)){
+        if(edges[vertex1].contains(vertex2) || edges[vertex2].contains(vertex1)){
             return false;
         }
         edges[vertex1].add(vertex2);
