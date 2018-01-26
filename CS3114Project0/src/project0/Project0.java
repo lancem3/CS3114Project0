@@ -14,7 +14,7 @@ public class Project0 {
 		AdjacencyList list = new AdjacencyList(numberVerticies);
 		boolean errorCheck = true;
 		for(int i=0; i < numberEdges; i++){
-		    errorCheck = list.addEdge(sc.nextInt(), sc.nextInt());
+		    errorCheck = list.addEdge(sc.nextInt()-1, sc.nextInt()-1);
 		    if(!errorCheck){
 		        System.out.println("duplicate edge");
 		        break;
@@ -22,9 +22,9 @@ public class Project0 {
 		}
 		int[] results;
 		for(int i=0; i < numberQueries; i++){
-		    results = list.getAdjacentVertices(sc.nextInt());
+		    results = list.getAdjacentVertices(sc.nextInt()-1);
 		    for(int n= 0; n < results.length; n++){
-		        System.out.print(n + " ");
+		        System.out.print(results[n]+1 + " ");
 		    }
 		    System.out.println("");
 		}
