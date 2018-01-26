@@ -1,2 +1,3 @@
 # CS3114Project0
-Project What
+
+Project Members: Lance Miller and Dylan Michaels
